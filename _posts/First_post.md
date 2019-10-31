@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Nilanjan Chatterjee, Launches Site"
+date: 2019-10-31
+---
 Hello, world 
 Welcome to my Blog!!
 
