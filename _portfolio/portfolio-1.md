@@ -4,7 +4,7 @@ excerpt: "Wildlife Photography <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-<br/><img src='./images/500x300.jpg'>
+<br/><img src='/images/500x300.jpg'>
 
 I started my photography journey around 2009. Afterwards, I got my formal training in photography and did a course from Photographic Association of Dumdum. 
 
