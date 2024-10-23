@@ -52,15 +52,11 @@ Talks
   
 Teaching
 ======
-▪ User-Friendly tools for conservation: Automated no-code analyses of animal tracking data using Moveapps- Workshop at TWS meeting 2023, USA
-▪ Introduction to Movement Ecology- Workshop at ATBC annual meeting 2023, India
-▪ Biometry- Undergraduate course at University of Minnesota – 2022 Fall semester (2 lectures, 1 lab)
-▪ Spatial Analysis using R-Workshop at ATBC-ASIA PACIFIC chapter meeting - 2019, Sri Lanka
-▪ Occupancy modelling- PhD Students of Wildlife Science, Wildlife Institute of India (2019)
-▪ Statistical analysis of ecological data- Post-graduate students of Wildlife Science, Wildlife Institute of India (2017, 2019) 
-▪ Statistical analysis of ecological data- Diploma trainees in Wildlife Institute of India
+<ul>{% for post in site.teachings reversed %}
+    {% include archive-single-cv.html  %}
+  {% endfor %}</ul>
   
 Service and leadership
 ======
 * Vice-president and Treasurer of University of Minnesota Post-doctoral Association (2023-24 and 2022-23 respectively)
-* 
+* Reviewer for multiple journals 
