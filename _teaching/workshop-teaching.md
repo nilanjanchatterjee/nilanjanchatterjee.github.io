@@ -4,7 +4,7 @@ collection: teaching
 type: "Workshop"
 permalink: /teaching/workshop-teaching
 venue: "University 1, Department"
-date: 2019-2023
+date: 2023-10-15
 location: "City, Country"
 ---
 
@@ -12,7 +12,7 @@ This is a brief description of a workshop teaching experience.
 
 The Wildlife Society Meeting, 2023
 ======
-User-Friendly tools for conservation: Automated no-code analyses of animal tracking data using Moveapps- Workshop at TWS meeting 2023, USA
+User-Friendly tools for conservation: Automated no-code analyses of animal tracking data using MoveApps- Workshop at TWS meeting 2023, USA
 
 Association for Tropical Biology Conference, 2023
 ======
