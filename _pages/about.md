@@ -1,23 +1,24 @@
 ---
 permalink: /
-title: "Welcome to the Homepage"
+title: "Nilanjan Chatterjee"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi, I’m a Postdoctoral Fellow at Senckenberg Biodiversity and Climate research center My research interest lies in understanding natural world better with statistical models. With my educational background of Statistics and working experience in ecology, I like to bridge the gap with interdisciplinary research. My research expertise encompasses a range of subject areas in ecology, including the development of methods for analysing animal movement and population trend, bird community ecology focusing on phylogeny, traits, and environmental variables. My current research focuses on modelling species interactions with anthropogenic features, using species movement data. I want to pursue my future research in the interface of statistics and ecology for species conservation and management.
+Hi, I am a Post-Doctoral Fellow at the [Senckenberg Biodiversity and Climate Research Institute](https://www.senckenberg.de/en/institutes/sbik-f/). Previously I have worked as a Post-doctoral Associate at the University of Minnesota. My research interest lies in understanding natural world better with statistical models. With my educational background of Statistics and working experience in ecology, I like to bridge the gap with interdisciplinary research. My research expertise encompasses a range of subject areas in ecology, including the development of methods for analysing animal movement and population trend, bird community ecology focusing on phylogeny, traits, and environmental variables. My current research focuses on modelling species interactions with anthropogenic features, using species movement data. I want to pursue my future research in the interface of statistics and ecology for species conservation and management.
 
-In my spare time, you'll find me trvelling, hiking or climbing in the mountains or capturing the nature through my camera.
 
 About Me
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I look forward to developing methodological innovations to design studies targeted for different animals. For my Phd I estimated population of unmarked terrestrial mammal species photo-captured in motion-triggered camera-traps. I graduated from the [Indian Statitical Institute](https://www.isical.ac.in/) with a MS in Statistics in 2013. After that, I joined a project on long-term monitoring of tigers and co-predators at Widllife Institute of India. Currently, I live in the city of Dehradun at the foothills of the Himalaya. 
+I am also an R enthusiast and have been teaching Undergraduate and PhD students about the basics of R programming.
+                        I am also a wildlife photography enthusiast and fond of capturing animals in their wild habitat. More details about this hobby can be found in the [Portfolio](https://nilanjanchatterjee.github.io/portfolio/) section of the site.
+In my spare time, you'll find me trvelling, hiking or climbing in the mountains, capturing the nature through my camera, watching birds, or cooking.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-
+			
 
 Site-wide configuration
 ------
