@@ -12,8 +12,8 @@ Hi, I am a Post-Doctoral Fellow at the [Senckenberg Biodiversity and Climate Res
 
 About Me
 ======
-I look forward to developing methodological innovations to design studies targeted for different animals. For my Phd I estimated population of unmarked terrestrial mammal species photo-captured in motion-triggered camera-traps. I graduated from the [Indian Statitical Institute](https://www.isical.ac.in/) with a MS in Statistics in 2013. After that, I joined a project on *long-term monitoring of tigers and co-predators in Central-India Landscape* at Widllife Institute of India. I am also an R enthusiast and have been teaching Undergraduate and PhD students about the basics of R programming.
-            <br/><img src='https://rawgithubusercontent.com/nilanjanchatterjee/nilanjanchatterjee.github.io/tree/master/images/500x300.png'>
+I look forward to developing methodological innovations to design studies targeted for different animals. For my Phd I estimated population of unmarked terrestrial mammal species photo-captured in motion-triggered camera-traps. I graduated from the [Indian Statitical Institute](https://www.isical.ac.in/) with a MS in Statistics in 2013. After that, I joined a project on *long-term monitoring of tigers and co-predators in Central-India Landscape* at [Wildlife Institute of India](https://wii.gov.in/). I am also an R enthusiast and have been teaching Undergraduate and PhD students about the basics of R programming.
+            <br/><img src='/images/500x300.jpg'>
 
   I am also a wildlife photography enthusiast and fond of capturing animals in their wild habitat. More details about this hobby can be found in the [Portfolio](https://nilanjanchatterjee.github.io/portfolio/) section of the site.
                         
