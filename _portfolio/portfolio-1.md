@@ -1,6 +1,6 @@
 ---
 title: "Few samples of my nature photography"
-excerpt: "Wildlife Photography <br/><img src='/images/500x300.png'>"
+excerpt: "Wildlife Photography <br/><img src='/images/500x300.jpg'>"
 collection: portfolio
 ---
 
