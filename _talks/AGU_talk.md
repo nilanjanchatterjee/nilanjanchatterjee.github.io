@@ -1,0 +1,13 @@
+---
+title: "Quantifying species-habitat associations using data pooled across studies and collection methods"
+collection: talks
+type: "Conference talk"
+permalink: /talks/AGU_talk
+venue: "AGU Fall Meeting 2022"
+date: 2022-12-12
+location: "Chicago, IL"
+---
+
+ Biodiversity monitoring is fundamental for making informed policy and conservation management decisions, and often requires collecting data over large spatial and temporal scales. Advancements in earth observation systems and analytical methods offer new opportunities to link animal location data to remotely-sensed environmental data collected via a range of satellite-based and Earth-based sensors. However, resolution of animal location data—including sampling rate and measurement accuracy—varies due to the use of different collection methods, posing challenges when inferring species-habitat associations based on data pooled across studies and years. Here, we illustrate these challenges using two example datasets representing species of conservation concern in the Yellowstone to Yukon region of North America, documenting mountain caribou locations over 28 years (1988-2016) and wolves over 10 years (2000-2011). Over time, sampling rates increased significantly for both datasets, from an average of 1 location/week/animal in 1988 to 3-4 locations/day/animal in 2010. In addition, the total number of locations per animal increased from an average of 37 between 1988 and 1990 to 1,312 between 2010 and 2016.
+
+We outline two potential methods for quantifying species-habitat associations using data pooled across studies and collected using different technology and sampling protocols. Both methods partition data into relatively uniform strata, fit stratum-specific models, and then combine results across strata. The methods differ in their treatment of within-individual autocorrelation in the animal tracking data—the first method ignores it, whereas the second method weights observations based on an autocorrelation-informed estimate of effective sample size. Although the latter approach is seen as more rigorous, it is more challenging to understand and apply with large datasets due to increased computational demands. By demonstrating how the choice of method impacts estimates of species-habitat associations, we provide guidance to practitioners interested in relating remote-sensing data products to animal location data, e.g., to measure or predict impacts of land use or climate change. 
