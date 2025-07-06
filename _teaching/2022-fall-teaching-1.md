@@ -1,20 +1,19 @@
 ---
-title: "Teaching experience UMN"
+title: "Course Teaching experience"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate and Masters course"
 permalink: /teaching/2022-fall-teaching-1
-venue: "University of Minnesota, Department of Fisheries, Wildlife and Conservation Biology"
-date: 2022-10-01
-location: "St. Paul, Minnesota"
+venue: ""
+date: 2022-2025
+location: " "
 ---
 
+
+Biometry Course at Department of Fisheries, Wildlife and Conservation Biology, University of Minnesota, 
+======
 Covered Biometry course of a week for undergraduate students. Taught two theory classes and one practical class. 
 
-Heading 1
+Movement ecology Module at the Goethe University + Senckenberg Biodiversity and climate Research Institute
 ======
+Taught habitat selection theory and practical for Masters Students at Goethe University
 
-Heading 2
-======
-
-Heading 3
-======
