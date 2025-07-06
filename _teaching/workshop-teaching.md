@@ -3,12 +3,12 @@ title: "Workshop Teaching experience"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/workshop-teaching
-venue: "University 1, Department"
-date: 2023-10-15
-location: "City, Country"
+venue: "Multiple venues across the world"
+date: 2019-2023
+location: " "
 ---
 
-This is a brief description of a workshop teaching experience. 
+This is a brief description of the teaching experience I had conducting workshops in different conferences on various topics. 
 
 The Wildlife Society Meeting, 2023
 ======
