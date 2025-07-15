@@ -4,7 +4,7 @@ collection: teaching
 type: "Workshop"
 permalink: /teaching/workshop-teaching
 venue: "Multiple venues across the world"
-date: 2019-2023
+date: 05-11-2023
 location: " "
 ---
 
