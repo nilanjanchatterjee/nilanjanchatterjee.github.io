@@ -1,7 +1,7 @@
 ---
 title: "Predicting carrying capacity of a large carnivore from prey densities: a new approach"
 collection: publications
-category: conferences
+category: Population Ecology
 permalink: https://peerj.com/articles/15914/
 excerpt: 'Large carnivores play a crucial role in maintaining the balance of the ecosystem. Successful conservation initiatives have often led to a huge increase in predators which has often led to negative interactions with humans. Here, we have derived a new equation to estimate the carrying capacity of tigers based on the individual prey species density.'
 date: 2023-11-22
