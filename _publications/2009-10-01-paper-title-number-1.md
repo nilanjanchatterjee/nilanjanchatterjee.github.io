@@ -1,7 +1,7 @@
 ---
 title: "Modelling individual variability in habitat selection and movement using integrated step‐selection analysis"
 collection: publications
-category: manuscripts
+category: Movement Ecology
 permalink: https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14321
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-04-15
