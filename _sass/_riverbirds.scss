@@ -1,0 +1,498 @@
+/* ==========================================================================
+   RIVER BIRDS  —  feature page + plain-language boxes on /publications/
+   Self-contained: no changes to the theme's core partials.
+   ========================================================================== */
+
+$rb-ink        : #12262b;
+$rb-muted      : #5a7178;
+$rb-accent     : #0e6b6f;
+$rb-accent-lt  : #1f8a86;
+$rb-line       : #dde5e6;
+$rb-wash       : #f5f8f8;
+$rb-sand       : #f7f5f0;
+$rb-radius     : 8px;
+
+/* ---------- generic bits ------------------------------------------------ */
+
+.rb-note {
+  margin-top: 1.6em;
+  padding: 0.75em 1em;
+  border-left: 3px solid $rb-accent-lt;
+  background: $rb-wash;
+  font-size: 0.9em;
+  color: $rb-muted;
+}
+
+/* ---------- hero -------------------------------------------------------- */
+
+.rb-hero {
+  margin: 0 0 2.5em;
+  padding: 2.6em 2.2em 2.2em;
+  border-radius: $rb-radius;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(255, 255, 255, 0.16) 0, rgba(255, 255, 255, 0) 55%),
+    linear-gradient(135deg, #0d3338 0%, $rb-accent 58%, $rb-accent-lt 100%);
+  color: #fff;
+
+  .rb-kicker {
+    margin: 0 0 0.6em;
+    font-size: 0.72em;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .rb-hero__title {
+    margin: 0 0 0.35em;
+    border: 0;
+    padding: 0;
+    font-size: 2.6em;
+    line-height: 1.05;
+    color: #fff;
+  }
+
+  .rb-hero__lede {
+    margin: 0;
+    max-width: 40em;
+    font-size: 1.06em;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .rb-hero__meta {
+    margin: 1.6em 0 0;
+    font-size: 0.82em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+/* ---------- fact strip -------------------------------------------------- */
+
+.rb-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  margin: 0 0 3em;
+  background: $rb-line;
+  border: 1px solid $rb-line;
+  border-radius: $rb-radius;
+  overflow: hidden;
+
+  .rb-stat {
+    flex: 1 1 140px;
+    padding: 1.1em 1em;
+    background: #fff;
+    text-align: center;
+  }
+
+  .rb-stat__num {
+    display: block;
+    font-size: 1.75em;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $rb-accent;
+  }
+
+  .rb-stat__label {
+    display: block;
+    margin-top: 0.35em;
+    font-size: 0.74em;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $rb-muted;
+  }
+}
+
+/* ---------- section rhythm ---------------------------------------------- */
+
+.rb-section {
+  margin-bottom: 3em;
+
+  > h2 {
+    margin-top: 0;
+  }
+
+  /* keep the measure readable; media and cards stay full width */
+  > p,
+  > .rb-lede,
+  > ol,
+  > ul.rb-chips {
+    max-width: 42rem;
+  }
+}
+
+.rb-lede {
+  font-size: 1.06em;
+  line-height: 1.65;
+  color: #2b3b41;
+}
+
+/* ---------- finding cards ----------------------------------------------- */
+
+.rb-findings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.1em;
+  margin: 1.6em 0 0;
+  padding: 0;
+  list-style: none;
+
+  &--pair {
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width: 700px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  li {
+    margin: 0;
+    padding: 1.2em 1.3em;
+    border: 1px solid $rb-line;
+    border-top: 3px solid $rb-accent-lt;
+    border-radius: 0 0 $rb-radius $rb-radius;
+    background: #fff;
+
+    strong {
+      display: block;
+      margin-bottom: 0.3em;
+      font-size: 1.02em;
+      color: $rb-ink;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.9em;
+      line-height: 1.55;
+      color: $rb-muted;
+    }
+  }
+}
+
+/* ---------- timeline ---------------------------------------------------- */
+
+.rb-timeline {
+  margin: 1.4em 0 0;
+  padding: 0;
+  list-style: none;
+  border-left: 2px solid $rb-line;
+
+  li {
+    position: relative;
+    margin: 0 0 1.5em;
+    padding: 0 0 0 1.6em;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.45em;
+      left: -0.44em;
+      width: 0.8em;
+      height: 0.8em;
+      border-radius: 50%;
+      background: $rb-accent;
+      box-shadow: 0 0 0 3px #fff;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .rb-timeline__year {
+    display: inline-block;
+    margin-right: 0.6em;
+    font-size: 0.78em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: $rb-accent;
+  }
+
+  .rb-timeline__title {
+    font-weight: 600;
+    color: $rb-ink;
+  }
+
+  p {
+    margin: 0.25em 0 0;
+    font-size: 0.92em;
+    line-height: 1.55;
+    color: $rb-muted;
+  }
+}
+
+/* ---------- photo gallery ----------------------------------------------- */
+
+.rb-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.1em;
+  margin: 1.6em 0 0;
+
+  @media (min-width: 700px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.rb-tile {
+  display: block;
+  margin: 0;
+  border: 1px solid $rb-line;
+  border-radius: $rb-radius;
+  background: #fff;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  figcaption {
+    padding: 0.7em 0.85em 0.8em;
+    font-family: $caption-font-family;
+    font-size: 0.84em;
+    line-height: 1.45;
+    color: $rb-muted;
+
+    strong {
+      display: block;
+      font-family: $sans-serif;
+      font-size: 1.02em;
+      color: $rb-ink;
+    }
+
+    em {
+      display: block;
+      font-style: italic;
+      font-size: 0.95em;
+      color: $rb-muted;
+    }
+
+    .rb-tile__meta {
+      display: block;
+      margin-top: 0.35em;
+      font-family: $sans-serif;
+      font-size: 0.86em;
+      color: #93a4a8;
+    }
+  }
+}
+
+/* the empty frame that stands in for a photograph until one is supplied */
+.rb-tile__frame {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55em;
+  aspect-ratio: 4 / 3;
+  padding: 1em;
+  box-sizing: border-box;
+  background:
+    repeating-linear-gradient(
+      135deg,
+      rgba(31, 138, 134, 0.05) 0,
+      rgba(31, 138, 134, 0.05) 8px,
+      rgba(255, 255, 255, 0) 8px,
+      rgba(255, 255, 255, 0) 16px
+    ),
+    $rb-wash;
+  border-bottom: 1px dashed $rb-line;
+  text-align: center;
+
+  svg {
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    color: $rb-accent;
+  }
+
+  .rb-tile__label {
+    font-family: $sans-serif;
+    font-size: 0.68em;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #8ea1a5;
+  }
+}
+
+/* full-width frames (study map, fieldwork) */
+.rb-tile--wide {
+  grid-column: 1 / -1;
+
+  .rb-tile__frame {
+    aspect-ratio: 21 / 9;
+    max-height: 320px;
+  }
+
+  @media (max-width: 600px) {
+    .rb-tile__frame {
+      aspect-ratio: 4 / 3;
+    }
+  }
+}
+
+/* ---------- threat chips ------------------------------------------------ */
+
+.rb-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55em;
+  margin: 1.3em 0 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 0.42em 0.85em;
+    border: 1px solid rgba($rb-accent, 0.25);
+    border-radius: 999px;
+    background: rgba($rb-accent, 0.06);
+    font-size: 0.84em;
+    color: $rb-accent;
+  }
+}
+
+/* ---------- call to action ---------------------------------------------- */
+
+.rb-cta {
+  margin: 3em 0 0;
+  padding: 1.8em 1.9em;
+  border-radius: $rb-radius;
+  background: $rb-sand;
+  border: 1px solid #e6e1d5;
+
+  h2,
+  h3 {
+    margin-top: 0;
+    border: 0;
+    padding: 0;
+    color: $rb-ink;
+  }
+
+  p {
+    margin-bottom: 0.8em;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  .btn {
+    background-color: $rb-accent;
+    color: #fff;
+    border: 1px solid darken($rb-accent, 4%);
+
+    &:hover,
+    &:focus {
+      background-color: darken($rb-accent, 8%);
+      color: #fff;
+    }
+  }
+}
+
+/* ==========================================================================
+   PLAIN-LANGUAGE PANEL  (/publications/)
+   ========================================================================== */
+
+.plainwords {
+  margin: 2.4em 0 3em;
+  padding: 1.9em 1.9em 1.5em;
+  border: 1px solid $rb-line;
+  border-radius: $rb-radius;
+  background: linear-gradient(180deg, #fbfdfd 0%, #f4f8f8 100%);
+
+  .plainwords__kicker {
+    margin: 0 0 0.4em;
+    font-size: 0.72em;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: $rb-accent-lt;
+    font-weight: 700;
+  }
+
+  .plainwords__title {
+    margin: 0 0 0.6em;
+    padding: 0;
+    border: 0;
+    font-size: 1.55em;
+    line-height: 1.25;
+    color: $rb-ink;
+  }
+
+  .plainwords__lead {
+    margin: 0 0 1.8em;
+    max-width: 46em;
+    font-size: 1.02em;
+    line-height: 1.65;
+    color: #33454b;
+  }
+
+  .plainwords__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 1.2em;
+  }
+
+  .plainwords__card {
+    padding: 1.25em 1.35em;
+    background: #fff;
+    border: 1px solid $rb-line;
+    border-radius: $rb-radius;
+
+    h3 {
+      margin: 0 0 0.6em;
+      font-size: 1.02em;
+      line-height: 1.3;
+      color: $rb-accent;
+    }
+
+    p {
+      margin: 0 0 0.7em;
+      font-size: 0.92em;
+      line-height: 1.62;
+      color: #3d5057;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .plainwords__foot {
+    margin: 1.6em 0 0;
+    padding-top: 1.1em;
+    border-top: 1px dashed $rb-line;
+    font-size: 0.9em;
+    color: $rb-muted;
+  }
+
+  @media (max-width: 600px) {
+    padding: 1.3em 1.1em 1.1em;
+  }
+}
+
+/* small panel under the publications list */
+.pub-outreach {
+  margin: 1.5em 0 0;
+  padding: 1.3em 1.5em;
+  border: 1px solid $rb-line;
+  border-left: 3px solid $rb-accent-lt;
+  border-radius: 0 $rb-radius $rb-radius 0;
+  background: $rb-wash;
+
+  p {
+    margin: 0 0 0.9em;
+    font-size: 0.94em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -5,32 +5,55 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
+<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+
+<section class="plainwords" id="plain-words">
+  <p class="plainwords__kicker">Plain-language summaries</p>
+  <h2 class="plainwords__title">What this work says, without the jargon</h2>
+  <p class="plainwords__lead">Most of my papers are about one question: <em>what are rivers doing for the birds that live on them, and what are those birds telling us about the rivers?</em> Here is the short version, in everyday language, of the four papers listed below.</p>
+
+  <div class="plainwords__grid">
+    <div class="plainwords__card">
+      <h3>1. Rivers have their own birds</h3>
+      <p>Some birds are not just <em>near</em> water — they are built for it. They feed on what the river produces, and they nest and roost in structures the river itself made: boulders, gravel bars, cut banks. Worldwide there are <strong>69 such specialists, in 19 bird families</strong>, from a 10-gram forktail to a 3.5-kg heron. Freshwater science has largely walked past them.</p>
+    </div>
+
+    <div class="plainwords__card">
+      <h3>2. Many are quietly disappearing</h3>
+      <p>Roughly <strong>two-thirds of the 69 species appear to be declining</strong>, and more than 20 are near threatened or worse. In our own five-year Himalayan study, <strong>five of twelve species fell by about 5–10%</strong>, and for three of them national citizen-science data show the same direction. Dams, pollution, land clearing and climate are the familiar causes; how they reach the birds is mostly unknown.</p>
+    </div>
+
+    <div class="plainwords__card">
+      <h3>3. Counting them is harder than it looks</h3>
+      <p>A kingfisher that shoots past at head height is easy to miss; a dipper bobbing on a wet rock is not. Raw counts therefore compare visibility rather than abundance. We surveyed the same <strong>43 river stretches three times a year for five years</strong>, and used a model that estimates the chance of detecting each species before working back to real numbers.</p>
+    </div>
+
+    <div class="plainwords__card">
+      <h3>4. The birds are a signal for the whole river</h3>
+      <p>Specialist species kept turning up in the <strong>least modified reaches</strong>: faster water, clean bedrock, boulder banks, intact riverside forest. Generalists were far less fussy — exactly what you want from an indicator. The practical ask is to protect rivers at the scale of whole catchments, and to put research where the species and the threats are concentrated.</p>
+    </div>
+  </div>
+
+  <p class="plainwords__foot">Field notes, study sites and photographs from this work are collected on the <a href="{{ base_path }}/riverbirds/"><strong>River Birds</strong></a> page.</p>
+</section>
+
+<h2 id="journal-articles">Journal Articles</h2><hr />
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% assign popular = site.publications | where: "category", "popular articles" %}
+{% if popular.size > 0 %}
+  <h2 id="writing-for-a-wider-audience">Writing for a Wider Audience</h2><hr />
+  {% for post in popular reversed %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
-
-
+<div class="pub-outreach">
+  <p><strong>Conserving the World's Specialist Riverine Birds</strong> — a plain-language summary written for the magazine of the Freshwater Biological Association, calling on freshwater biologists to take river birds seriously.</p>
+  <p><a class="btn btn--info" href="https://www.fba.org.uk/articles/conserving-the-worlds-specialist-riverine-birds-calling-freshwater-biologists">Read the FBA article</a></p>
+</div>
