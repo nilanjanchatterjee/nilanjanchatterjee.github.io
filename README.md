@@ -3,7 +3,7 @@
 
 # Getting Started
 
-I am a Post-Doctoral Fellow at the Senckenberg Biodiversity and Climate Research Institute (https://www.senckenberg.de/en/institutes/sbik-f/). Previously I have worked as a Post-doctoral Associate at the University of Minnesota. My research interest lies in understanding natural world better with statistical models. With my educational background of Statistics and working experience in ecology,
+I am a Post-Doctoral Fellow at the Senckenberg Biodiversity and Climate Research Institute (https://www.senckenberg.de/en/institutes/sbik-f/). Previously I have worked as a Post-doctoral Associate at the University of Minnesota with Prof. John Fieberg (https://fieberg-lab.cfans.umn.edu/john-fieberg/current-lab-members) for the MoveApps Project (https://www.moveapps.org). My research interest lies in understanding natural world better with statistical models. With my educational background of Statistics and working experience in ecology,
 I like to bridge the gap with interdisciplinary research. My research expertise encompasses a range of subject areas in ecology,
 including the development of methods for analysing animal movement and population trend, bird community ecology focusing on phylogeny, traits, and environmental
 variables. My current research focuses on modelling species interactions with anthropogenic features, using species movement data. I want to pursue my future
