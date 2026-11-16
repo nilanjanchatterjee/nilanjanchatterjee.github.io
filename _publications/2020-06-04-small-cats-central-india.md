@@ -3,12 +3,14 @@ title: "Population density and habitat use of two sympatric small cats in a cent
 collection: publications
 category: manuscripts
 permalink: /publication/2020-small-cats-central-india
-excerpt: 'Small cats are more specialised than their larger cousins in how they use habitat, yet they are rarely surveyed. Using camera-trap data from a central Indian tiger reserve, we estimated the abundance of jungle cat and rusty-spotted cat — and found clear habitat segregation between them.'
 date: 2020-06-04
-venue: 'PLOS ONE'
-paperurl: 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233569'
-link: 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233569'
-citation: 'Chatterjee, N., Nigam, P., &amp; Habib, B. (2020). &quot;Population density and habitat use of two sympatric small cats in a central Indian reserve.&quot; <i>PLOS ONE</i>, 15(6), e0233569.'
+venue: "PLOS ONE 15(6), e0233569"
+authors: "Chatterjee, Nigam & Habib"
+journal: "PLOS ONE"
+groups: ["camera-traps", "population"]
+paperurl: "https://doi.org/10.1371/journal.pone.0233569"
+doi: "10.1371/journal.pone.0233569"
+citation: "Chatterjee, N., Nigam, P., & Habib, B. (2020). &quot;Population density and habitat use of two sympatric small cats in a central Indian reserve&quot; <i>PLOS ONE</i>, 15(6), e0233569."
 ---
 
 Small cats are far more specialised than their larger relatives in how they use habitat, yet they are rarely surveyed — which makes it hard to say whether their populations are secure. This study used camera-trap captures from a central Indian tiger reserve to estimate the abundance of two widespread species, the jungle cat and the rusty-spotted cat, and to ask what separates them on the landscape.

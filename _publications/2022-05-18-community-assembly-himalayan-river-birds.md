@@ -3,11 +3,14 @@ title: "Community assembly, functional traits, and phylogeny in Himalayan river 
 collection: publications
 category: manuscripts
 permalink: /publication/2022-community-assembly-himalayan-river-birds
-excerpt: 'Why do so many river bird species coexist in one mountain range? Traits, ancestry and habitat together decide who lives where along 3,000 m of Himalayan elevation.'
 date: 2022-05-18
-venue: 'Ecology and Evolution'
-paperurl: 'https://doi.org/10.1002/ece3.9012'
-citation: 'Sinha, A., Chatterjee, N., Krishnamurthy, R., &amp; Ormerod, S. J. (2022). &quot;Community assembly, functional traits, and phylogeny in Himalayan river birds.&quot; <i>Ecology and Evolution</i>, 12, e9012.'
+venue: "Ecology and Evolution 12(6), e9012"
+authors: "Sinha, Chatterjee, Krishnamurthy & Ormerod"
+journal: "Ecology and Evolution"
+groups: ["river-birds"]
+paperurl: "https://doi.org/10.1002/ece3.9012"
+doi: "10.1002/ece3.9012"
+citation: "Sinha, A., Chatterjee, N., Krishnamurthy, R., & Ormerod, S. J. (2022). &quot;Community assembly, functional traits, and phylogeny in Himalayan river birds&quot; <i>Ecology and Evolution</i>, 12(6), e9012."
 ---
 
 The rivers of the Himalaya hold the most diverse community of specialist river birds on Earth. This paper asks how that coexistence is possible: do species sort themselves by habitat, by body size and foraging style, by shared ancestry — or by all three at once?

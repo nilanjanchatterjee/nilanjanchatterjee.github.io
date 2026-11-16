@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Illustration of a population estimate with uncertainty">
+  <defs>
+    <linearGradient id="pp-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fcfc"/>
+      <stop offset="1" stop-color="#e7f1f1"/>
+    </linearGradient>
+    <linearGradient id="pp-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b8b86"/>
+      <stop offset="1" stop-color="#0e6b6f"/>
+    </linearGradient>
+    <marker id="pp-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0 0 L9 4.5 L0 9 z" fill="#d98f3f"/>
+    </marker>
+  </defs>
+  <rect width="320" height="200" fill="url(#pp-bg)"/>
+
+  <!-- baseline -->
+  <path d="M22 160 H 298" fill="none" stroke="#0e6b6f" stroke-width="1.6" stroke-opacity=".45" stroke-linecap="round"/>
+
+  <!-- trend -->
+  <path d="M40 138 L 172 96" fill="none" stroke="#d98f3f" stroke-width="2" stroke-linecap="round" marker-end="url(#pp-arrow)" opacity=".85"/>
+  <g fill="#d98f3f" opacity=".55">
+    <circle cx="40" cy="138" r="3.4"/>
+    <circle cx="84" cy="125" r="3.4"/>
+    <circle cx="128" cy="111" r="3.4"/>
+  </g>
+
+  <!-- bars with uncertainty -->
+  <g fill="url(#pp-bar)">
+    <rect x="184" y="116" width="20" height="44" rx="3"/>
+    <rect x="212" y="96" width="20" height="64" rx="3"/>
+    <rect x="240" y="70" width="20" height="90" rx="3"/>
+    <rect x="268" y="102" width="20" height="58" rx="3"/>
+  </g>
+  <g fill="none" stroke="#0e6b6f" stroke-width="1.6" stroke-linecap="round" stroke-opacity=".7">
+    <path d="M194 108 v-9 M189 108 h10"/>
+    <path d="M222 86 v-9 M217 86 h10"/>
+    <path d="M250 58 v-9 M245 58 h10"/>
+    <path d="M278 92 v-9 M273 92 h10"/>
+  </g>
+</svg>

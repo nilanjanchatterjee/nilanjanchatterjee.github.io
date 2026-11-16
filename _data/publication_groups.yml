@@ -1,0 +1,49 @@
+# Thematic groups used on /publications/.
+# A paper can appear in more than one group: `groups:` in a publication's
+# front matter is a list of the keys below.
+# Order here = order on the page.
+
+- key: river-birds
+  title: River birds &amp; Himalayan rivers
+  image: /images/groups/river-birds.svg
+  alt: "A bird perched on a boulder in a fast-flowing river"
+  blurb: >-
+    Community ecology, population trends and the conservation case for the birds that
+    live on fast-flowing rivers — from five summers of counts in the Bhagirathi basin
+    to a global review of the 69 specialist riverine species.
+
+- key: camera-traps
+  title: Camera traps &amp; small carnivores
+  image: /images/groups/camera-traps.svg
+  alt: "A camera trap pointed at an animal track"
+  blurb: >-
+    Density, occupancy and activity of animals that cannot be counted by eye — small cats,
+    honey badgers, bears and whole mammal communities, from central Indian reserves to a
+    continent-wide camera-trap collaboration.
+
+- key: movement
+  title: Movement &amp; habitat selection
+  image: /images/groups/movement.svg
+  alt: "A GPS track crossing terrain contours"
+  blurb: >-
+    How individual animals choose where to go, and how to model it without averaging the
+    individuals away: step-selection functions, point processes, road crossing, and the
+    biases built into how movement is studied.
+
+- key: population
+  title: Population &amp; monitoring
+  image: /images/groups/population.svg
+  alt: "A population estimate with uncertainty bars"
+  blurb: >-
+    Estimating abundance, trend and carrying capacity — and what goes wrong when monitoring
+    is done at the wrong scale, with the wrong survey design, or without accounting for
+    imperfect detection.
+
+- key: methods
+  title: Methods, data &amp; open science
+  image: /images/groups/methods.svg
+  alt: "Code, data and a network of connected methods"
+  blurb: >-
+    The machinery behind the results: survey design, model choice, reusable code and data,
+    and the health of the published literature itself — including what gets retracted and
+    why.

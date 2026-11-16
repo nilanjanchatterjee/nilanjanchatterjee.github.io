@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Illustration of a river bird perched on a boulder in fast water">
+  <defs>
+    <linearGradient id="rb-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fcfc"/>
+      <stop offset="1" stop-color="#e7f1f1"/>
+    </linearGradient>
+    <linearGradient id="rb-water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f8a86" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#0e6b6f" stop-opacity=".20"/>
+    </linearGradient>
+    <linearGradient id="rb-rock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbeceb"/>
+      <stop offset="1" stop-color="#bfd9d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" fill="url(#rb-bg)"/>
+
+  <!-- river bands -->
+  <path d="M0 58 C 60 48, 112 70, 166 60 S 266 46, 320 58 L320 78 C 266 66, 216 90, 166 80 S 60 68, 0 78 Z" fill="url(#rb-water)"/>
+  <path d="M0 92 C 56 84, 106 104, 162 94 S 264 82, 320 94 L320 110 C 264 98, 212 120, 162 110 S 56 98, 0 110 Z" fill="url(#rb-water)" opacity=".85"/>
+  <path d="M0 58 C 60 48, 112 70, 166 60 S 266 46, 320 58" fill="none" stroke="#1f8a86" stroke-width="1.5" stroke-opacity=".5"/>
+  <path d="M0 92 C 56 84, 106 104, 162 94 S 264 82, 320 94" fill="none" stroke="#0e6b6f" stroke-width="1.5" stroke-opacity=".4"/>
+
+  <!-- riffle marks -->
+  <g fill="none" stroke="#0e6b6f" stroke-width="1.5" stroke-linecap="round" stroke-opacity=".3">
+    <path d="M34 72 h16"/><path d="M62 76 h10"/><path d="M248 102 h16"/><path d="M270 106 h9"/>
+  </g>
+
+  <!-- boulder -->
+  <path d="M128 164 q 3 -24 24 -30 q 30 -9 48 6 q 24 4 28 24 z"
+        fill="url(#rb-rock)" stroke="#0e6b6f" stroke-opacity=".4" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M150 146 q 14 -10 30 -9" fill="none" stroke="#ffffff" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- perched bird -->
+  <g>
+    <path d="M180 128 l-19 11 4.5 6.5 17 -9 z" fill="#0e6b6f"/>
+    <ellipse cx="198" cy="123" rx="17.5" ry="12" transform="rotate(-11 198 123)" fill="#0e6b6f"/>
+    <path d="M186 116 q 9 -6 20 -2" fill="none" stroke="#2b8b86" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="214" cy="108" r="8.2" fill="#0e6b6f"/>
+    <circle cx="216.4" cy="105.6" r="1.7" fill="#f8fcfc"/>
+    <path d="M221.5 107 l9.5 2.6 -9.5 3.2 z" fill="#d98f3f"/>
+    <g stroke="#0e6b6f" stroke-width="2.2" stroke-linecap="round">
+      <path d="M193 134 v8"/><path d="M203 133 v9"/>
+    </g>
+    <g stroke="#0e6b6f" stroke-width="1.8" stroke-linecap="round" stroke-opacity=".7">
+      <path d="M190 142 h6"/><path d="M200 142 h6"/>
+    </g>
+  </g>
+
+  <!-- splash -->
+  <g fill="none" stroke="#1f8a86" stroke-width="1.6" stroke-linecap="round" stroke-opacity=".45">
+    <path d="M126 152 q -9 -5 -15 0"/><path d="M122 160 q -10 -3 -16 2"/>
+  </g>
+</svg>

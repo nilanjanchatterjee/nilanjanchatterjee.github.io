@@ -3,11 +3,14 @@ title: "River birds as potential indicators of local- and catchment-scale influe
 collection: publications
 category: manuscripts
 permalink: /publication/2019-river-birds-indicators-himalayan-rivers
-excerpt: 'Where the river is least modified — fast flow, exposed bedrock, boulder banks, intact riparian forest — specialist river birds are most likely to be found. A first case for using them as indicators.'
 date: 2019-04-02
-venue: 'Ecosystems and People'
-paperurl: 'https://doi.org/10.1080/26395916.2019.1591508'
-citation: 'Sinha, A., Chatterjee, N., Ormerod, S. J., Adhikari, B. S., &amp; Krishnamurthy, R. (2019). &quot;River birds as potential indicators of local- and catchment-scale influences on Himalayan river ecosystems.&quot; <i>Ecosystems and People</i>, 15(1), 90&ndash;101.'
+venue: "Ecosystems and People 15(1), 90&ndash;101"
+authors: "Sinha, Chatterjee, Ormerod, Adhikari & Krishnamurthy"
+journal: "Ecosystems and People"
+groups: ["river-birds", "population"]
+paperurl: "https://doi.org/10.1080/26395916.2019.1591508"
+doi: "10.1080/26395916.2019.1591508"
+citation: "Sinha, A., Chatterjee, N., Ormerod, S. J., Adhikari, B. S., & Krishnamurthy, R. (2019). &quot;River birds as potential indicators of local- and catchment-scale influences on Himalayan river ecosystems&quot; <i>Ecosystems and People</i>, 15(1), 90&ndash;101."
 ---
 
 This is where the project started. Rivers respond to what happens across their whole catchment — land use, channel modification, floodplain and riparian change — and those effects propagate downstream. If a group of birds is closely tied to river conditions, then the birds themselves might tell us something about the river that a water sample cannot.

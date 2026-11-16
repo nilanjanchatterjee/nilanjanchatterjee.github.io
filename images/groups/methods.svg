@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Illustration of code, data and connected methods">
+  <defs>
+    <linearGradient id="me-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7fbfb"/>
+      <stop offset="1" stop-color="#e9f1f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" fill="url(#me-bg)"/>
+
+  <!-- terminal window -->
+  <g>
+    <rect x="30" y="52" width="126" height="96" rx="8" fill="#ffffff" stroke="#0e6b6f" stroke-opacity=".35" stroke-width="1.6"/>
+    <path d="M30 66 h126" stroke="#0e6b6f" stroke-opacity=".25" stroke-width="1.4"/>
+    <circle cx="42" cy="59" r="2.6" fill="#d98f3f" opacity=".8"/>
+    <circle cx="52" cy="59" r="2.6" fill="#1f8a86" opacity=".5"/>
+    <circle cx="62" cy="59" r="2.6" fill="#0e6b6f" opacity=".3"/>
+  </g>
+
+  <!-- code marks -->
+  <g fill="none" stroke="#0e6b6f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M56 88 l-10 14 10 14"/>
+    <path d="M130 88 l10 14 -10 14"/>
+    <path d="M104 84 l-16 38"/>
+  </g>
+  <g stroke="#1f8a86" stroke-width="1.8" stroke-linecap="round" stroke-opacity=".55">
+    <path d="M74 96 h18"/><path d="M74 108 h26"/><path d="M74 120 h12"/>
+  </g>
+
+  <!-- network -->
+  <g stroke="#0e6b6f" stroke-opacity=".45" stroke-width="1.8">
+    <path d="M196 74 L 246 60"/><path d="M196 74 L 246 104"/><path d="M196 74 L 240 146"/>
+    <path d="M246 60 L 246 104"/><path d="M246 104 L 240 146"/>
+  </g>
+  <g fill="#1f8a86">
+    <circle cx="196" cy="74" r="7"/>
+    <circle cx="246" cy="60" r="5.5" opacity=".8"/>
+    <circle cx="246" cy="104" r="5.5" opacity=".8"/>
+    <circle cx="240" cy="146" r="5.5" opacity=".8"/>
+  </g>
+  <circle cx="196" cy="74" r="2.6" fill="#fff"/>
+
+  <!-- braces -->
+  <g fill="none" stroke="#d98f3f" stroke-width="2" stroke-linecap="round" stroke-opacity=".8">
+    <path d="M286 58 q -10 0 -10 12 v 14 q 0 14 -10 14 q 10 0 10 14 v 14 q 0 12 10 12"/>
+  </g>
+</svg>

@@ -3,11 +3,14 @@ title: "Population Variability and Apparent Recent Decline of River Birds in the
 collection: publications
 category: manuscripts
 permalink: /publication/2025-population-decline-himalayan-river-birds
-excerpt: 'Five years of repeated counts along 43 river reaches show that five of twelve Himalayan river bird species declined by 5–10% — the first detectability-corrected population estimates for this community.'
 date: 2025-02-10
-venue: 'Biotropica'
-paperurl: 'https://doi.org/10.1111/btp.70017'
-citation: 'Sinha, A., Chatterjee, N., Ormerod, S. J., &amp; Krishnamurthy, R. (2025). &quot;Population Variability and Apparent Recent Decline of River Birds in the Indian Himalaya.&quot; <i>Biotropica</i>, 57, e70017.'
+venue: "Biotropica 57(2), e70017"
+authors: "Sinha, Chatterjee, Ormerod & Krishnamurthy"
+journal: "Biotropica"
+groups: ["river-birds", "population"]
+paperurl: "https://doi.org/10.1111/btp.70017"
+doi: "10.1111/btp.70017"
+citation: "Sinha, A., Chatterjee, N., Ormerod, S. J., & Krishnamurthy, R. (2025). &quot;Population Variability and Apparent Recent Decline of River Birds in the Indian Himalaya&quot; <i>Biotropica</i>, 57(2), e70017."
 ---
 
 Counting birds along a mountain river looks simple until you ask what the count actually means. Some species sit in the open on a boulder; others slip past under the noise of the water. Raw counts therefore mix real abundance with how easy a bird is to see — and that problem is acute in the steep, fast, logistically difficult rivers of the Himalaya, where almost no long-term monitoring exists.

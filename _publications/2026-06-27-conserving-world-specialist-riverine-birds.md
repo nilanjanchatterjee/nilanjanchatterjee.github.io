@@ -3,11 +3,14 @@ title: "Conserving the World's Specialist Riverine Birds"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-conserving-world-specialist-riverine-birds
-excerpt: 'The first global review of the 69 bird species that make their living from fast-flowing rivers: where they are, what is threatening them, and what conservation should do next.'
 date: 2026-06-27
-venue: 'WIREs Water'
-paperurl: 'https://doi.org/10.1002/wat2.70082'
-citation: 'Sinha, A., Chatterjee, N., &amp; Ormerod, S. J. (2026). &quot;Conserving the World&rsquo;s Specialist Riverine Birds.&quot; <i>WIREs Water</i>, 13, e70082.'
+venue: "WIREs Water 13(4), e70082"
+authors: "Sinha, Chatterjee & Ormerod"
+journal: "WIREs Water"
+groups: ["river-birds"]
+paperurl: "https://doi.org/10.1002/wat2.70082"
+doi: "10.1002/wat2.70082"
+citation: "Sinha, A., Chatterjee, N., & Ormerod, S. J. (2026). &quot;Conserving the World's Specialist Riverine Birds&quot; <i>WIREs Water</i>, 13(4), e70082."
 ---
 
 Rivers and the strips of land beside them form one of the most productive edges in nature: energy and matter move constantly between water and land, and a remarkable set of birds has evolved to live on that exchange. This review is the first to treat those birds as a single global group.
